@@ -1,0 +1,17 @@
+{
+  "name": "readmes",
+  "version": "0.0.1",
+  "description": "Standardized READMES for various build processes and technologies at 4k.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourkitchens/readmes.git"
+  },
+  "author": "Allan Chappell",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fourkitchens/readmes/issues"
+  },
+  "homepage": "https://github.com/fourkitchens/readmes#readme"
+}
