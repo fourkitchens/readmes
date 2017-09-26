@@ -1,9 +1,8 @@
 {
   "name": "readmes",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Standardized READMES for various build processes and technologies at 4k.",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fourkitchens/readmes.git"
