@@ -13,4 +13,4 @@
 
 ### Database
 
-* Retrive from Pantheon Live backup
+* Retrive from Pantheon Live backup using `kbox pull`
