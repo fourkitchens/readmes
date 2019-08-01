@@ -6,9 +6,9 @@ This is a brief overview of my manual Pantheon Project located at https://github
 |   |   |
 |---|---|
 | Build Tool | None |
-| Local Environment | <a href='https://github.com/kalabox/kalabox'>Kalabox</a> |
+| Local Environment | <a href='https://github.com/lando/lando/'>Lando</a> |
 | Deployment Method | Manual push to Pantheon |
-| PHP | 7.0 |
+| PHP | 7.2 |
 | Core Distribution | Drupal 7 |
 | Testing Enforced | None |
 
@@ -21,9 +21,10 @@ This is a brief overview of my manual Pantheon Project located at https://github
 
 ### Dependencies
 
-* [Kalabox](https://github.com/kalabox/kalabox)
-* [NodeJS LTS](https://nodejs.org/en/)
-* [Drush >= 7](https://github.com/drush-ops/drush)
+* [Lando >= v3.0.0-rc.13](https://docs.devwithlando.io/)
+* [NVM](https://github.com/nvm-sh/nvm)
+* [NodeJS v10 LTS](https://nodejs.org/en/)
+* [Drush >= 8](https://github.com/drush-ops/drush)
 * [Terminus >= 1](https://github.com/pantheon-systems/terminus)
 
 ### Accounts, Roles, and Permissions
@@ -32,7 +33,8 @@ This is a brief overview of my manual Pantheon Project located at https://github
 
 ### Database
 
-* Retrive from Pantheon Live backup
+* Retrieve from Pantheon Live backup.
+  `terminus backup:get site.live --element=db --to=db.sql.gz`
 
 ## Getting Started
 
@@ -42,14 +44,18 @@ This is a brief overview of my manual Pantheon Project located at https://github
 
 ### Local Development
 
-1. Use Kalabox to download and create a local environment.
-2. `cd ~/Kalabox/SITE_NAME/code`
-3. Add the github repository as a remote using `git remote add fourkitchens GIT_REPO`
-4. `npm install`
-5. Use Kalabox to pull live database.
-6. `kbox drush cc all`
+1. Clone the client repo
+2. Download the database to a subdirectory called `reference` and save it as `db.sql.gz`
+3. `lando start`
+4. `lando db-import reference/db.sql.gz` or whatever the db name is
+5. Use the standard `refresh` command
 
-
+### Refresh notes
+1. This is run by a different tool on every site and does not import a db.
+2. It will check for the presence of a local settings file.
+3. You may need to get development keys off last pass
+4. Optional environment name argument: `local`, `dev`, `test`, and `prod`
+5. Default is `local`
 
 ## Subsequent Builds
 

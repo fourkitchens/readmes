@@ -2,7 +2,9 @@
   "name": "readmes",
   "version": "0.1.0",
   "description": "Standardized READMES for various build processes and technologies at 4k.",
-  "scripts": {},
+  "scripts": {
+    "emdaer": "cd examples/pantheon-d7-manual/; emdaer"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fourkitchens/readmes.git"
@@ -12,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/fourkitchens/readmes/issues"
   },
-  "homepage": "https://github.com/fourkitchens/readmes#readme"
+  "homepage": "https://github.com/fourkitchens/readmes#readme",
+  "dependencies": {
+    "emdaer": "^0.3.3"
+  }
 }

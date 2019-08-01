@@ -1,6 +1,6 @@
 # Four Kitchen General Purpose Readme Sections
 
-This respository houses the basic layout of readmes on a 4K project as defined by a dicover between David Diers and Allan Chappell. One can use this framework and the following examples to *build* readmes in their project using node so that the documentation only has to be updated in a single place.
+This respository houses the basic layout of readmes on a 4K project. One can use this framework and the following examples to *build* readmes in their project using node so that the documentation only has to be updated in a single place.
 
 ## Repository Structure
 
@@ -51,9 +51,12 @@ In your existing project, you will need to add an .emdaer.yml file. You will als
 - include: './node_modules/readmes/pantheon/d7/manual/known-issues.md'
 ```
 
+### Edits:
+If you need custom edits to your readme, create a docs directory and change `node_modules/readmes/pantheon/d7/manual` to `docs` in the `.emdaer.yml` file.
+
 Run:
 ```
 npm install
-npm emdaer
+npm run emdaer
 ```
 You will have a rendered version of the Manual Pantheon Project. You can see this example in https://github.com/fourkitchens/readmes/tree/master/examples/pantheon-d7-manual.
