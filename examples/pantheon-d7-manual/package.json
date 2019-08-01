@@ -1,0 +1,11 @@
+{
+  "name": "emdaer-test",
+  "description": "",
+  "scripts": {
+    "emdaer": "emdaer"
+  },
+  "devDependencies": {
+    "emdaer": "^0.3.3",
+    "readmes": "git+ssh://git@github.com:fourkitchens/readmes.git"
+  }
+}

@@ -1,0 +1,12 @@
+- text: '# Manual Pantheon Project'
+- text: "This is a brief overview of my manual Pantheon Project located at https://github.com/fourkitchens/readmes/tree/master/pantheon/d7/manual"
+- include: './node_modules/readmes/pantheon/d7/manual/at-a-glance.md'
+- include: './node_modules/readmes/pantheon/d7/manual/brief-foundation-architecture.md'
+- include: './node_modules/readmes/pantheon/d7/manual/before-you-start.md'
+- include: './node_modules/readmes/pantheon/d7/manual/getting-started.md'
+- include: './node_modules/readmes/pantheon/d7/manual/subsequent-builds.md'
+- include: './node_modules/readmes/pantheon/d7/manual/git-workflow.md'
+- include: './node_modules/readmes/pantheon/d7/manual/configuration-management-workflow.md'
+- include: './node_modules/readmes/pantheon/d7/manual/deployment.md'
+- include: './node_modules/readmes/pantheon/d7/manual/testing.md'
+- include: './node_modules/readmes/pantheon/d7/manual/known-issues.md'
