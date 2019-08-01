@@ -22,10 +22,11 @@ This is a brief overview of a Pantheon/Wordpress/Composer Project located at htt
 
 ### Dependencies
 
-* [Lando](https://github.com/lando/lando/releases)
+* [Composer](https://getcomposer.org/download/)
 * [NodeJS LTS](https://nodejs.org/en/)
+* [Lando](https://github.com/lando/lando/releases)
 * [wp-cli](https://wp-cli.org/)
-* [Terminus >= 1](https://github.com/pantheon-systems/terminus)
+* [Terminus >= 1.9](https://github.com/pantheon-systems/terminus)
 
 ### Accounts, Roles, and Permissions
 
@@ -47,8 +48,12 @@ npm install
 
 ### Local Development
 
-This repo uses lando for local development. [Make sure its installed on your machine.](https://docs.devwithlando.io/installation/installing.html). See Using Lando below for further instructions on using lando within your development workflow.
+This repo uses lando for local development. [Make sure its installed on your machine.](https://github.com/lando/lando/releases). See Using Lando below for further instructions on using lando within your development workflow.
 
+1. Clone the client repo
+2. `terminus backup:get [SITE].live --element=db --to=reference/db.sql.gz`
+3. `lando start`
+4. `lando db-import reference/db.sql.gz` or whatever the db name is
 ## Subsequent Builds
 
 Checkout the new code and rerun steps 4-6 for local development as needed.
@@ -72,7 +77,7 @@ No configuration management. Configuration is stored in the database.
 4. Enter the tickets you are deploying into the deployment notes and click Deploy
 5. Click the "Live" tab.
 6. Create a manual backup and wait for it to complete.
-6. Repeat step 4.
+7. Repeat step 4.
 ## Testing
 
 All testing is currently done manually and via the code review process.
