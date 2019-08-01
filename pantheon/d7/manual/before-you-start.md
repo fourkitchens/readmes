@@ -2,7 +2,7 @@
 
 ### Dependencies
 
-* [Kalabox](https://github.com/kalabox/kalabox)
+* [Lando](https://docs.devwithlando.io/)
 * [NodeJS LTS](https://nodejs.org/en/)
 * [Drush >= 7](https://github.com/drush-ops/drush)
 * [Terminus >= 1](https://github.com/pantheon-systems/terminus)
@@ -13,4 +13,5 @@
 
 ### Database
 
-* Retrive from Pantheon Live backup
+* Retrieve from Pantheon Live backup.
+  `terminus backup:get site.live --element=db --to=db.sql.gz`
