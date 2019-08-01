@@ -2,10 +2,11 @@
 
 ### Dependencies
 
-* [Lando](https://github.com/lando/lando/releases)
+* [Composer](https://getcomposer.org/download/)
 * [NodeJS LTS](https://nodejs.org/en/)
+* [Lando](https://github.com/lando/lando/releases)
 * [wp-cli](https://wp-cli.org/)
-* [Terminus >= 1](https://github.com/pantheon-systems/terminus)
+* [Terminus >= 1.9](https://github.com/pantheon-systems/terminus)
 
 ### Accounts, Roles, and Permissions
 

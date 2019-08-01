@@ -6,4 +6,4 @@
 4. Enter the tickets you are deploying into the deployment notes and click Deploy
 5. Click the "Live" tab.
 6. Create a manual backup and wait for it to complete.
-6. Repeat step 4.
+7. Repeat step 4.
