@@ -2,7 +2,7 @@
 |   |   |
 |---|---|
 | Build Tool | None |
-| Local Environment | <a href='https://docs.devwithlando.io/'>Lando</a> |
+| Local Environment | <a href='https://github.com/lando/lando/'>Lando</a> |
 | Deployment Method | Manual push to Pantheon |
 | PHP | 7.2 |
 | Core Distribution | Drupal 7 |
