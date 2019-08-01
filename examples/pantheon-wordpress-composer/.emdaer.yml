@@ -1,0 +1,12 @@
+- text: '# Pantheon/Wordpress/Composer Project'
+- text: "This is a brief overview of a Pantheon/Wordpress/Composer Project located at https://github.com/fourkitchens/readmes/tree/master/pantheon/wordpress/composer"
+- include: './node_modules/readmes/pantheon/wordpress/composer/at-a-glance.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/brief-foundation-architecture.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/before-you-start.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/getting-started.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/subsequent-builds.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/git-workflow.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/configuration-management-workflow.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/deployment.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/testing.md'
+- include: './node_modules/readmes/pantheon/wordpress/composer/known-issues.md'
