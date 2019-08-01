@@ -64,9 +64,21 @@ Checkout the new code and rerun steps 4-6 for local development as needed.
 
 ## Git workflow
 
-- `master` The master branch is for code ready to be released to the live environment. Pantheon enforces us to traverse from dev to live so essentially, dev environment is UAT and Live is live and test is effectively a dead zone since it is not individually addressable. We want to preserve the ability to "hot patch" live so we are not using dev as a gitflow "develop" as a result of the pantheon workflow.
+- `master` The master branch is for hotfixes and code ready to be released to the live environment.
 
-- `feature` Feature branches should branch from and merge back into the sprint branch. They contain code that is currently in development. When a story/feature is complete, a pull request should be created merging the feature branch into the sprint branch.
+- `develop` The develop branch is for new features and routine bugfixes, new branches should default to using this base branch. They contain code that is currently in development. When a story/feature is complete, a pull request should be created merging the feature branch into the sprint branch.
+
+- `release-*` Feature branches should branch from and merge back into this default sprint branch. They contain code that is currently in development. When a story/feature is complete, a pull request should be created merging the feature branch into the sprint branch.
+
+- `abc-123` PRs should have a ticket assicated with them and the branch name should be the ticket number in all lower case.
+
+## PRs
+
+- `names` PR names should contain the ticket number in upper case with a dash, the number, and a colon so JIRA links to it appropriately.  Example: `ABC-123:`
+
+## Commits
+
+- `prefix` Commits should be prefixed with the ticket number in uppercase with a dash, the number, and a colon so JIRA links to it appropriately.  Example: `ABC-123:`
 
 ## Configuration Management Workflow
 

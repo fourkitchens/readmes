@@ -42,13 +42,15 @@ In your existing project, you will need to add an .emdaer.yml file. You will als
 - include: './node_modules/readmes/pantheon/d7/manual/at-a-glance.md'
 - include: './node_modules/readmes/pantheon/d7/manual/brief-foundation-architecture.md'
 - include: './node_modules/readmes/pantheon/d7/manual/before-you-start.md'
-- include: './node_modules/readmes/pantheon/d7/manual/getting-started.md'
-- include: './node_modules/readmes/pantheon/d7/manual/subsequent-builds.md'
-- include: './node_modules/readmes/pantheon/d7/manual/git-workflow.md'
+- include: './node_modules/readmes/global/getting-started.md'
+- include: './node_modules/readmes/global/subsequent-builds.md'
+- include: './node_modules/readmes/global/git-workflow.md'
+- include: './node_modules/readmes/global/prs.md'
+- include: './node_modules/readmes/global/commits.md'
 - include: './node_modules/readmes/pantheon/d7/manual/configuration-management-workflow.md'
 - include: './node_modules/readmes/pantheon/d7/manual/deployment.md'
-- include: './node_modules/readmes/pantheon/d7/manual/testing.md'
-- include: './node_modules/readmes/pantheon/d7/manual/known-issues.md'
+- include: './node_modules/readmes/global/testing.md'
+- include: './node_modules/readmes/global/known-issues.md'
 ```
 
 ### Edits:
