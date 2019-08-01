@@ -12,7 +12,9 @@ The structure of this repository is roughly layed out in [Hosting]/[Framework]/[
 
 **Build Type** is based on the build architecture. Typically this is identified as something like Composer, Aquifer, Drush Make, or Manual.
 
-It is possible for a Hosting/Framework/Build Type combination to share documentation between each. In those situations, simply symlink to the correct documentation piece.
+It is possible for a Hosting/Framework/Build Type combination to share documentation between each. In those situations, simply place it in the most common denomination of commonality like [Hosting]/[Framework] or [Hosting]. In other cases, symlink to the correct documentation piece.
+
+If documentation applies to all instances, feel free to add it to the `global` folder at the hosting level.
 
 ## How To Use
 
